@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 17%;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.logo span{
+    color: orangered;
+}
+.nav-center{
+    display: flex;
+}
+.nav-center a{
+    margin: 0 20px;
+}
+.nav-center a:hover{
+    color: orangered;
+    transition: all .50s ease;
+}
+.nav-right a{
+    margin: 0 10px;
+}
+#menu-icon{
+    display: none;
+}
+.one{
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+section{
+    padding: 27px 17%;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(./img/Background.png);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home-text h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.home-text h1{
+    font-size: 800;
+    font-size: 6rem;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+}
+.home-text p{
+    color:  #ffffffab;
+    margin-bottom: 40px;
+    line-height: 2rem;
+}
+.home-text button{
+    padding: 15px 40px;
+    color: black;
+    font-weight: 800;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .50s ease;
+}
+.home-text button:hover{
+    transform: translateX(10px);
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff
+}
+.feature-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.row-image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+.row-image img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.7s;
+}
+.row-image img:hover{
+    transform: scale(1.2);
+}
+.holiday{
+    width: 100%;
+    height: 100vh;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vw;
+}
+.holiday-img img{
+    width: 420px;
+    height: 530px;
+    border-radius: 10px;
+}
+.holiday-text h5{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: orangered;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.holiday-text h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.holiday-text p{
+    color: #ffffffab;
+    line-height: 2rem;
+    margin-bottom: 25px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 15px 40px;
+    color: black;
+    font-weight: 800;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .50s ease;
+    font-weight: 700;
+}
+.btn:hover{
+    transform: translateY(20px);
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff
+}
+.tour-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 3vw;
+}
+.center-text{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.box{
+    position: relative;
+}
+.box h6{
+    position: absolute;
+    bottom: 16vh;
+    left: 20px;
+    font-size: 1.2rem;
+}
+.box h4{
+    position: absolute;
+    bottom: 11vh;
+    left: 20px;
+    font-size: 1.6rem;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(70%);
+    transition: all .50s ease;
+}
+.box img:hover{
+    filter:brightness(90%) hue-rotate(50deg);
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.center-btn{
+    text-align: center;
+    margin-top: 10vh;
+}
+.culture{
+    margin-top: 7rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9rem;
+}
+.culture-text h5{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    color: orangered;
+    margin-bottom: 2rem;
+}
+.culture-text h2{
+    font-size: 3rem;
+    text-transform:capitalize;
+    margin-bottom: 2rem;
+}
+.culture-text  p{
+    color: #ffffffab;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+.culture-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+

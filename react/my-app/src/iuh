@@ -1,0 +1,4 @@
+/* reactDom.createRoot method -->   ye behind the seen dom like stracture  create
+ karta hai  ye main dom aur vertual dom ko compare karta hai our unhi ko
+ update karta hai jo  ki auxtualy me ui me update huai hai
+    */

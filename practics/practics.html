@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        .center{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .one{
+            margin: 10px;
+            border: 2px solid black;
+            width: 100px;
+            height: 80px;
+        }
+        #red{
+            background: red;
+        }
+        #green{
+            background: green;
+        }
+        #blue{
+            background: blue;
+        }
+        #orange{
+            background: orange;
+        }
+        .all{
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+<script>
+    const body = document.body
+    const center = document.querySelector(".center")
+    let all = document.querySelector(".all")
+        center.addEventListener("click", (e)=>{
+            console.log(e.target);
+        if(e.target.id === "red"){
+            body.style.backgroundColor =  e.target.id
+        }
+        if(e.target.id === "green"){
+            body.style.backgroundColor =  e.target.id
+        }
+        if(e.target.id === "blue"){
+            body.style.backgroundColor =  e.target.id
+        }
+        if(e.target.id === "orange"){
+            body.style.backgroundColor =  e.target.id
+        }
+        all.textContent = e.target.id
+    })
+
+    
+   
+</script>
+</html>

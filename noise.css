@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    background-image: url(https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.relative{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    padding-left: 50px;
+    height: 120px;
+    color: white;
+}
+.text h1{
+    font-size: 50px;
+    padding-right: 200px;
+    font-weight: 700;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para p{
+    line-height: 1.2rem;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.one{
+    width: 25%;
+    background-color: white;
+}
+.hello{
+    margin-top: 20px;
+}
+.two{
+    width: 25%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1512654755163-0f342db4466f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=875&q=80);
+    background-size: cover;
+}
+.hello h3,p{
+    font-weight: 600;
+    padding:30px ;
+}
+.hello p{
+    font-weight: 600;
+    padding:20px ;
+}
+.three{
+    width: 20%;
+    background-color: green;
+
+}
+.under{
+    width: 100%;
+    height: 50%;
+    background-color: orangered;
+}
+.under h3{
+    font-weight: 600;
+    padding:20px ;
+}
+.under p{
+    font-weight: 600;
+    padding:10px 20px;
+}
+.pic{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://media.istockphoto.com/id/1399843499/photo/full-frame-shot-of-cosmos-flowers-blooming-in-the-nature.webp?b=1&s=170667a&w=0&k=20&c=OEt1aWguRxbzr0iMXnLbVyfATSZ4oNjeD8ChDKPzrqs=);
+    background-size: cover;
+    background-position: center;
+}
+.four{
+    padding-left: 30px;
+    width: 30%;
+    background-color: gold;
+}
+.four h2{
+    margin-top: 20px;
+}
+.gola{
+    display: flex;
+    align-items: center;
+}
+.gola1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.gola-2{
+    display: flex;
+    align-items: center;
+}
+.gola2 img{
+    border-radius: 50%;
+    background-color: red;
+}

@@ -1,0 +1,15 @@
+nav ul li:first-child{
+    color: chartreuse;
+}
+.main a:hover{
+    text-decoration: none;
+    color: black;
+}
+.main a:active{
+    color: red;
+    background-color: black;
+}
+.main input:hover{
+    border: 2px solid red;
+
+}

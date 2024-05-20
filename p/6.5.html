@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch </title>
+    <script src="6.5.js" defer></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(67deg, crimson, rgb(236, 101, 124));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .counterTimer{
+        margin-top: 4rem;
+        display: flex;
+        gap: 20px;
+        /* background: #191919; */
+        padding:6px 15px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+    }
+    .counterTimer > p{
+        text-align: center;
+    }
+    .counterTimer > p > span{
+        display: block;
+        font-size: 3rem;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Temp</h1>
+        <div class="counterTimer">
+            
+            <p><span class="days">12</span> Days</p>
+            <p><span class="hours">2</span> Hours</p>
+            <p><span class="minute">33</span> Minute</p>
+            <p><span class="second">44</span> seconds</p>
+        </div>
+    </div>
+</body>
+</html>

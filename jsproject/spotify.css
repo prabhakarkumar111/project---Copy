@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background: antiquewhite;
+}
+nav{
+    padding: 10px 20px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.brand{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    width: 40px;
+    height: auto;
+}
+ul{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+nav ul li{
+    margin-left: 20px;
+}
+.one{
+    color: #efefef;
+}
+.container{
+    padding: 20px;
+    min-height: 73vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    width: 70%;
+    margin: 15px auto;
+    border-radius: 12px;
+    background: url(https://cdn.wallpapersafari.com/44/2/FeE9wp.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.bottom{
+    padding: 10px 20px;
+    position: sticky;
+    height: 100px;
+    background: #000;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+    margin-left: 10px;
+    color: #edeef0;
+}
+.songItem{
+    margin-top: 15px;
+    width: 400px;
+    background: linear-gradient(125deg, orange, #345678, red);
+    border-radius: 30px;
+    color: #000;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.songItem img{
+    background-size: cover;
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+}
+.songItem span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.songItem span i{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: lightgreen;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    color: #edeef0;
+    margin-top: 20px;
+   
+}
+.songInfo img{
+    border-radius: 50%;
+    vertical-align: middle;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+#gif{
+    transition: all 1s ease-in-out;
+}

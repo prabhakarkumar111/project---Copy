@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html, body{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 35vw;
+    height: 100vh;
+    position: relative;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4%;
+}
+.top a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+.top a.one{
+    color: black;
+}
+.top :hover{
+    color: orange;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.bottom{
+    position: absolute;
+    top: 40vh;
+    left: 8vw;
+}
+.bottom h1{
+    font-size: 5vw;
+    margin-bottom: 4vh;
+    font-weight: bold;
+}
+.bottom p{
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding-bottom: 3vh;
+    line-height: 3vh;
+    width: 300px;
+}
+.bottom a{
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: 600;
+}
+.bottom a:hover{
+    color: green;
+}
+.right{
+    width: 65vw;
+    height: 100vh;
+}
+.right-top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.right-top-left{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right-top-right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1606602842475-a5852a58b399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhdXRpZnVsJTIwYW5pbWFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right-bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

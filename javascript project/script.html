@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image search</title>
+    <script src="script.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            height: 100vh;
+        }
+        h1{
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 40px 0 60px 0;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+        form input{
+            width: 60%;
+            max-width: 400px;
+            border: none;
+            padding: 10px 20px;
+            box-shadow: 0 0 6px rgba(0, 0, 0 ,0.2);
+            border-radius: 5px;
+            font-size: 18px;
+            color: #333;
+        }
+        #search-button{
+            padding: 10px 20px ;
+            background: #138065;
+            color: #fff;
+            border: none;
+            font-size: 18px;
+            box-shadow: 0 0 6px rgba(0, 0, 0 ,0.2);
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        .search-results{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .search-result{
+            margin-bottom: 60px;
+            width: 30%;
+            height: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 6px rgba(0, 0, 0 ,0.2);
+            overflow: hidden;
+        }
+        .search-result img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: opacity 0.2s ease-in-out;
+        }
+        .search-result img:hover{
+            opacity: 0.8;
+        }
+        .search-result a{
+            font-size: 20px;
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px;
+            text-transform: capitalize;
+        }
+        #show-more-button{
+            background: #008cba;
+            font-size: 18px;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            display: block;
+            margin: 30px auto;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Search App</h1>
+    <form action="">
+        <input type="text" id="search-input" placeholder="search for images">
+        <button id="search-button">Search</button>
+    </form>
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1583510053050-6f427b09dee5?auto=format&fit=crop&q=80&w=1035&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mountain">
+            <a href="https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-G_neUW3PLqA" target="__blank">mountain</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1583510053050-6f427b09dee5?auto=format&fit=crop&q=80&w=1035&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mountain">
+            <a href="https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-G_neUW3PLqA" target="__blank">mountain</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1583510053050-6f427b09dee5?auto=format&fit=crop&q=80&w=1035&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mountain">
+            <a href="https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-G_neUW3PLqA" target="__blank">mountain</a>
+        </div>
+    </div>
+    <button id="show-more-button">Show More</button>
+</body>
+</html>
